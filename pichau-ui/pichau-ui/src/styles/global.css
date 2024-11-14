@@ -1,0 +1,123 @@
+:root {
+  --bg-container-color: #f3f5f8;
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --secondary-text-color: #333333;
+  --light-gray-color: #b5b7c0;
+  --main-color: #f91616;
+  --main-color-hover: #b71818;
+  --md-gray: #c5c5c5;
+
+  --success-bg-color: #16c098;
+  --success-text-color: #008767;
+  --success-border-color: #008767;
+
+  --danger-bg-color: #ffc5c5;
+  --danger-text-color: #df0404;
+  --danger-border-color: #df0404;
+
+  --border-color: #c5c5c5;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --input-padding: 10px 2px;
+  --border-radius: 4px;
+  --border-radius-container: 1rem;
+  --box-width: 60%;
+
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+body {
+  background-color: var(--bg-container-color);
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-content {
+  background-color: var(--bg-color);
+  padding: 36px;
+  border-radius: var(--border-radius-container);
+  font-family: var(--font-primary);
+  box-shadow: var(--box-shadow);
+  width: 80%;
+  height: 98%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-row {
+  border-bottom: 1px solid var(--light-gray-color);
+}
+
+.table-cell {
+  padding: 12px;
+  text-align: center;
+}
+
+.add-button {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.add-button:hover {
+  background-color: var(--main-color-hover);
+}
+
+.status-tag {
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  height: 36px;
+  display: inline-block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.status-tag:hover {
+  opacity: 0.85;
+}
+
+.status-active {
+  background-color: var(--success-bg-color);
+  color: var(--success-text-color);
+  border: solid 1px var(--success-border-color);
+}
+
+.status-inactive {
+  background-color: var(--danger-bg-color);
+  color: var(--danger-text-color);
+  border: solid 1px var(--danger-border-color);
+}
+
+.divider {
+  width: 100%;
+  height: 0.4px;
+  background-color: var(--light-gray-color);
+}

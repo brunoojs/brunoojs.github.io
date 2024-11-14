@@ -1,0 +1,46 @@
+[
+  {
+    "username": "admin",
+    "password": "admin"
+  },
+  {
+    "username": "johndoe42",
+    "password": "securePass123"
+  },
+  {
+    "username": "alice_smith",
+    "password": "AliceP@ssw0rd"
+  },
+  {
+    "username": "bob_jones",
+    "password": "BobbyJ2023!"
+  },
+  {
+    "username": "emma_wilson",
+    "password": "EmmaW1ls0n#"
+  },
+  {
+    "username": "michael87",
+    "password": "MikePass987"
+  },
+  {
+    "username": "sarah_lee",
+    "password": "SarahL33@2023"
+  },
+  {
+    "username": "david_brown",
+    "password": "Br0wnD@v1d"
+  },
+  {
+    "username": "lisa_taylor",
+    "password": "L1saT@yl0r"
+  },
+  {
+    "username": "kevin_white",
+    "password": "Wh1teKev1n!"
+  },
+  {
+    "username": "olivia_green",
+    "password": "Gr33nOl1v1@"
+  }
+]

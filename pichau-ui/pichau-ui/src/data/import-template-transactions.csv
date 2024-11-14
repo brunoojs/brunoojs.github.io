@@ -1,0 +1,6 @@
+cliente_id,valor,data,descricao,status,tipo
+15,2499.99,15/09/2024,Placa de Vídeo RTX 4060 Ti 8GB,Realizado,Entrada
+7,899.90,23/08/2024,Monitor Gamer 27' 165Hz IPS,Pendente,Saída
+22,3299.99,05/11/2024,Notebook Gamer Acer Nitro 5,Realizado,Entrada
+5,449.90,30/10/2024,Teclado Mecânico Redragon RGB,Cancelado,Saída
+18,699.99,12/08/2024,SSD 1TB NVMe PCIe Gen4,Realizado,Entrada
